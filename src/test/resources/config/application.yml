@@ -1,0 +1,22 @@
+debug: false
+
+# Application properties
+# 
+# application:
+#   output:
+#     compress:
+#       enabled: Enables output directory compression / archival
+#       entries-per-archive: The maximum number of entries / files per archive. Default entire directory
+#     json:
+#       records-per-file: The maximum records per file. Minimum is 20K. Default 1-1
+#     csv:
+#       rows-per-file: The maximum rows per file. Minimum is 20K. Default 1-1
+#application:
+#  output:
+#    compress:
+#      enabled: true
+#      entries-per-archive: 5
+#    json:
+#      records-per-file: 150000
+#    csv:
+#      rows-per-file: 200000
