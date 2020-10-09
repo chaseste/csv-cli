@@ -33,11 +33,13 @@ CSV CLI
 This is a continuation of [csv_to_json](https://github.com/chaseste/csv_to_json) to explore 1.) Writing a apples to apples comparion of Java to Python, 2.) Seeing the apples to apples performance differences between Java and Python and 3.) Extending to include validation of the source CSV. Granted a apples to apples comparion is hard though a best effort was made.
 
 # Requirements
+These are the current requirements to build/run the cli from source. They are not required to be installed on your machine prior to building the cli. The build script provides an option to install the requirements if needed. 
+
 - [Maven](https://maven.apache.org/download.cgi)
 - [JDK8](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html)
 
 ## Disclaimer
-The current dependencies won't work on JDK 15. JDK 8 is what was tested against. JDK 8+ should be possible with some additional dependency tweaks (most noteably jcommander).
+The CLI's current dependencies won't work on JDK 15. JDK 8 is what was tested against. JDK 8+ should be possible with some additional dependency tweaks (most noteably jcommander).
 
 # Build
 ## Checking out the code
